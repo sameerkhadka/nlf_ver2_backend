@@ -29,7 +29,7 @@ var scheduleSwiper = new Swiper(".hightlight_slider", {
 });
 
 var scheduleSwiper = new Swiper(".timeline_slider", {
-  slidesPerView: 1.5,
+  slidesPerView: 1,
   centeredSlides: true,
   centeredSlidesBounds: true,
   loop: true,
@@ -44,6 +44,14 @@ var scheduleSwiper = new Swiper(".timeline_slider", {
   },
   autoplay: {
     delay: 8500,
+  },
+
+  breakpoints: {
+    
+    1024: {
+      spaceBetween: 1.5,
+    },
+   
   },
 });
 

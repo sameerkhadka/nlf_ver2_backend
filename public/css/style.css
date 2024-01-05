@@ -339,6 +339,7 @@ header .nav_wrap .menu_btn {
 .testimonial .testimonial_wrap {
   border: 1px solid #26528e;
   padding: 10px;
+  margin: 15px 0;
 }
 .testimonial .testimonial_wrap .row {
   align-items: center;
@@ -418,4 +419,16 @@ footer .text_right p {
   margin-bottom: 0;
   color: #c3c2c2;
   font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .marquee-container .marquee-content li {
+    width: 50%;
+  }
+  .timeline .timeline_slider::before, .timeline .timeline_slider::after {
+    display: none;
+  }
+  .faq img {
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

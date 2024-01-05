@@ -51,7 +51,7 @@
         </div>
 
         <div class="nav_wrap flex">
-          <a href="{{setting('site.login')}}">Login/Register</a>
+          <a href="{{setting('site.login')}}" target="_blank">Login/Register</a>
 
           <div class="menu_btn">
             <i class="fa-solid fa-bars"></i>
