@@ -83,7 +83,7 @@
     @php $tags = explode('@', $item->hashtags) @endphp
     <ul class="marquee-content">
       @foreach($tags as $tag)
-      <li><i class="fa-solid fa-hashtag"></i>{{$tag}}</li>
+      <li>{{$tag}}</li>
       @endforeach
     </ul>
   </div>
@@ -177,7 +177,7 @@
     </div>
   </section>
 
-  <section class="testimonial p-60">
+  <!-- <section class="testimonial p-60">
     <div class="container">
       <h3><em>{{$item->testimonial_title}}</em></h3>
 
@@ -208,7 +208,7 @@
         @endforeach
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer class="p-60">
     <div class="container">
