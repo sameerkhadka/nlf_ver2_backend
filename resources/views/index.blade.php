@@ -7,6 +7,7 @@
   <title>{{setting('site.title')}}</title>
   <meta name="description" content="{{setting('site.description')}}">
         
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{setting('site.title')}}">
