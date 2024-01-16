@@ -123,6 +123,10 @@ img {
   display: none !important;
 }
 
+.faq h3 {
+  color: #000000 !important;
+}
+
 /* @media (max-width: 1700px) {
   .container {
     max-width: 1348px;
