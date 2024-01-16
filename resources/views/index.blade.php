@@ -124,7 +124,7 @@
     </div>
   </section>
 
-  <section class="timeline p-60">
+  <!-- <section class="timeline p-60">
     <div class="container">
       <div class="text-center">
         <h3>{{$item->timeline_title}}</h3>
@@ -156,7 +156,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="faq p-60">
     <div class="container">
@@ -170,10 +170,10 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
 
           <img src="{{Voyager::image($item->about_img2)}}" alt="">
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
