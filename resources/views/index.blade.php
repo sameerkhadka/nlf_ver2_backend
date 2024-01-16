@@ -164,7 +164,7 @@
         {!!$item->about!!}
       </div>
       <div class="row justify-content-md-center">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="img">
             <img src="{{Voyager::image($item->about_img1)}}" alt="" />
           </div>
