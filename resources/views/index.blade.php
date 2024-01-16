@@ -163,8 +163,8 @@
       <div class="text">
         {!!$item->about!!}
       </div>
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6">
+      <div class="row justify-content-md-center">
+        <div class="col-md-6">
           <div class="img">
             <img src="{{Voyager::image($item->about_img1)}}" alt="" />
           </div>
