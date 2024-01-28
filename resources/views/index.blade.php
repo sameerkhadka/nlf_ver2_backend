@@ -7,6 +7,7 @@
   <title>{{setting('site.title')}}</title>
   <meta name="description" content="{{setting('site.description')}}">
         
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{setting('site.title')}}">
@@ -36,8 +37,8 @@
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet" />
 
-  <link rel="stylesheet" href="{{asset('css/reset.css')}}" />
-  <link rel="stylesheet" href="{{asset('css/style.css?v3')}}" />
+  <link rel="stylesheet" href="{{asset('css/reset.css?v3')}}" />
+  <link rel="stylesheet" href="{{asset('css/style.css?v3.1')}}" />
 </head>
 
 <body>
@@ -83,7 +84,7 @@
     @php $tags = explode('@', $item->hashtags) @endphp
     <ul class="marquee-content">
       @foreach($tags as $tag)
-      <li><i class="fa-solid fa-hashtag"></i>{{$tag}}</li>
+      <li>{{$tag}}</li>
       @endforeach
     </ul>
   </div>
@@ -123,7 +124,7 @@
     </div>
   </section>
 
-  <section class="timeline p-60">
+  <!-- <section class="timeline p-60">
     <div class="container">
       <div class="text-center">
         <h3>{{$item->timeline_title}}</h3>
@@ -155,29 +156,29 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="faq p-60">
     <div class="container">
       <div class="text">
         {!!$item->about!!}
       </div>
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row justify-content-md-center">
+        <div class="col-md-12">
           <div class="img">
             <img src="{{Voyager::image($item->about_img1)}}" alt="" />
           </div>
         </div>
 
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
 
           <img src="{{Voyager::image($item->about_img2)}}" alt="">
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 
-  <section class="testimonial p-60">
+  <!-- <section class="testimonial p-60">
     <div class="container">
       <h3><em>{{$item->testimonial_title}}</em></h3>
 
@@ -208,7 +209,7 @@
         @endforeach
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer class="p-60">
     <div class="container">

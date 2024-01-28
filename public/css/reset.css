@@ -119,6 +119,14 @@ img {
   display: none;
 }
 
+.timeline .timeline_slider::before, .timeline .timeline_slider::after {
+  display: none !important;
+}
+
+.faq h3 {
+  color: #000000 !important;
+}
+
 /* @media (max-width: 1700px) {
   .container {
     max-width: 1348px;
