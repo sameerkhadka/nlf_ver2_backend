@@ -216,6 +216,26 @@ header {
                 border-radius: 10px;
                 background-color: #fff;
             }
+
+            table {
+                border: 0;
+                tr {
+                    border-bottom: 1px solid #cdcdcd;
+
+                    th,
+                    td {
+                        padding: 20px 0 10px;
+                    }
+
+                    strong {
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
         }
     }
 

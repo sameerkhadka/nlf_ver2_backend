@@ -183,6 +183,22 @@ header .nav_wrap .menu_btn {
   border-radius: 10px;
   background-color: #fff;
 }
+.schedule .hightlight_slider .schedule_content table {
+  border: 0;
+}
+.schedule .hightlight_slider .schedule_content table tr {
+  border-bottom: 1px solid #cdcdcd;
+}
+.schedule .hightlight_slider .schedule_content table tr th,
+.schedule .hightlight_slider .schedule_content table tr td {
+  padding: 20px 0 10px;
+}
+.schedule .hightlight_slider .schedule_content table tr strong {
+  font-weight: 700;
+}
+.schedule .hightlight_slider .schedule_content table tr h5 {
+  margin-bottom: 15px;
+}
 .schedule .swiper-button-next,
 .schedule .swiper-button-prev {
   position: absolute;

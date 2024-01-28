@@ -37,7 +37,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="{{asset('css/reset.css')}}" />
-  <link rel="stylesheet" href="{{asset('css/style.css?v2')}}" />
+  <link rel="stylesheet" href="{{asset('css/style.css?v3')}}" />
 </head>
 
 <body>
@@ -99,7 +99,7 @@
           @foreach($highlights as $high)
           <div class="swiper-slide">
             <div class="row">
-              <div class="col-md-7">
+              <div class="col-md-9">
                 <div class="content">
                   <div class="date">
                     <h5>{{$high->title}}</h5>
