@@ -178,11 +178,11 @@
     </div>
   </section>
 
-  <!-- <section class="testimonial p-60">
+  <section class="testimonial p-60">
     <div class="container">
       <h3><em>{{$item->testimonial_title}}</em></h3>
 
-      <div class="row">
+      <div class="row align-items-center">
         @foreach($testimonials as $test)
         <div class="col-md-3">
           <div class="testimonial_wrap">
@@ -209,7 +209,7 @@
         @endforeach
       </div>
     </div>
-  </section> -->
+  </section>
 
   <footer class="p-60">
     <div class="container">
