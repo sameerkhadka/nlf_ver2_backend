@@ -182,7 +182,7 @@
     <div class="container">
       <h3><em>{{$item->testimonial_title}}</em></h3>
 
-      <div class="row align-items-center">
+      <div class="row justify-content-center">
         @foreach($testimonials as $test)
         <div class="col-md-3">
           <div class="testimonial_wrap">
