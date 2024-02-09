@@ -100,27 +100,28 @@
           @foreach($highlights as $high)
           <div class="swiper-slide">
             <div class="row">
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <div class="content">
                   <div class="date">
                     <h5>{{$high->title}}</h5>
                   </div>
 
-                  <div class="schedule_content col-md-12">
-                    <div class="col-md-6">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <div class="schedule_content">
                       {!!$high->description!!}
 
                       <br />
                     </div>
-
-                    <div class="col-md-6">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="schedule_content">
                       {!!$high->side_description!!}
 
                       <br />
                     </div>
                   </div>
-
-
+                  </div>
                 </div>
               </div>
             </div>
