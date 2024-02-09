@@ -106,17 +106,21 @@
                     <h5>{{$high->title}}</h5>
                   </div>
 
-                  <div class="schedule_content col-md-6">
-                    {!!$high->description!!}
+                  <div class="schedule_content col-md-12">
+                    <div class="col-md-6">
+                      {!!$high->description!!}
 
-                    <br />
+                      <br />
+                    </div>
+
+                    <div class="col-md-6">
+                      {!!$high->side_description!!}
+
+                      <br />
+                    </div>
                   </div>
 
-                  <div class="schedule_content col-md-6">
-                    {!!$high->side_description!!}
 
-                    <br />
-                  </div>
                 </div>
               </div>
             </div>
