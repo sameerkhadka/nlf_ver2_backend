@@ -106,8 +106,14 @@
                     <h5>{{$high->title}}</h5>
                   </div>
 
-                  <div class="schedule_content">
+                  <div class="schedule_content col-md-6">
                     {!!$high->description!!}
+
+                    <br />
+                  </div>
+
+                  <div class="schedule_content col-md-6">
+                    {!!$high->side_description!!}
 
                     <br />
                   </div>
